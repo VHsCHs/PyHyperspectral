@@ -1,5 +1,5 @@
-from private_model.gdal_convert import ENVI_RAW
-from private_model.cv_circles_linesP import recongize_circle,recongize_linesP
+from models.gdal_convert import ENVI_RAW
+from models.cv_circles_linesP import recongize_circle,recongize_linesP
 from matplotlib import pyplot as plt
 # file = 'D:\\Desktop\\data\\BSQ\\306.raw.BSQ'
 file = 'Z:\\data\\BSQ\\306_ref.raw.BSQ'

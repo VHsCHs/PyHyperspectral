@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from matplotlib import pyplot as plt
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import IsolationForest
-from private_model.pymodel import error_wipe, RMSE, all_np
+from models.pymodel import error_wipe, RMSE, all_np
 import numpy as np
 import pandas as pd
 import time

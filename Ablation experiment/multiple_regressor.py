@@ -4,7 +4,7 @@ import pandas as pd
 import time
 from matplotlib import pyplot as plt
 
-from private_model.pymodel import RMSE
+from models.pymodel import RMSE
 from sklearn.metrics import r2_score
 
 from sklearn.model_selection import train_test_split

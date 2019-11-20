@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import math
 import time, random
 from sklearn.covariance import EllipticEnvelope
-from private_model.pymodel import RMSE
+from models.pymodel import RMSE
 start_time = time.time()
 '''
 pandas导入csv

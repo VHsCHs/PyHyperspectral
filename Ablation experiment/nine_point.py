@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import time
 from sklearn.ensemble import IsolationForest
-from private_model.pymodel import nine_point_average, RMSE
+from models.pymodel import nine_point_average, RMSE
 from sklearn.metrics import r2_score
 
 clf = MLPRegressor(

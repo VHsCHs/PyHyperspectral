@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import math
 import time
 from sklearn.svm import OneClassSVM
-from private_model.pymodel import RMSE
+from models.pymodel import RMSE
 
 start_time = time.time()
 '''

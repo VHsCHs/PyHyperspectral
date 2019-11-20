@@ -16,7 +16,7 @@ from sklearn.svm import SVR
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.feature_selection import SelectKBest
-from private_model.pymodel import RMSE,RRMSE ,all_np, error_wipe, NinePointAverage, FirstDerivatives, MultipleScatterCorrection, \
+from models.pymodel import RMSE,RRMSE ,all_np, error_wipe, NinePointAverage, FirstDerivatives, MultipleScatterCorrection, \
     SavitzkyGolayFilter, HarrDwt, str_round
 
 start_time = time.time()

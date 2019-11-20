@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 # from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from private_model.p_tkinter import tk_file
-from private_model.pymodel import RMSE
+from models.p_tkinter import tk_file
+from models.pymodel import RMSE
 
 path, file_list = tk_file('.csv')
 

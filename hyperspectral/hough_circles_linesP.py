@@ -9,7 +9,7 @@ from skimage import exposure, img_as_float, img_as_ubyte
 import time
 import math
 import csv
-from private_model.pymail import MAIL
+from models.pymail import MAIL
 
 start_time = time.time()
 

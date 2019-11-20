@@ -6,7 +6,7 @@ from tkinter.filedialog import askdirectory, askopenfilename
 import os,sys
 import time
 import math
-from private_model.pymail import MAIL
+from models.pymail import MAIL
 
 start_time = time.time()
 

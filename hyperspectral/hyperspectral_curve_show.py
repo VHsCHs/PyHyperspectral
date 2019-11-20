@@ -5,7 +5,7 @@ import os
 import time
 import tkinter as tk
 from tkinter.filedialog import askdirectory
-from private_model.pymodel import nine_point_average
+from models.pymodel import nine_point_average
 
 '''
 ACTION:

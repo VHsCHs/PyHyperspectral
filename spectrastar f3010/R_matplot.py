@@ -1,5 +1,5 @@
 import csv
-from private_model import csv_read
+from models import csv_read
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.cross_decomposition import PLSRegression, PLSCanonical, CCA
