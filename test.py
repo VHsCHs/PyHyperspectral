@@ -1,6 +1,8 @@
 from models.gdal_convert import ENVI_RAW
 from models.cv_circles_linesP import recongize_circle,recongize_linesP
 from matplotlib import pyplot as plt
+import tkinter as tk
+
 # file = 'D:\\Desktop\\data\\BSQ\\306.raw.BSQ'
 file = 'Z:\\data\\BSQ\\306_ref.raw.BSQ'
 
